@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I love you Luke</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <div class="scene">
+        <div class="moon"></div>
+        <h1 class="happy">Happy Birthday Luke</h1>
+        <h1 class="phrase">I love you more than the countless stars in the universe and with each shooting star, I wish for a future with you, a bright future illuminated by the beautiful light of the moon
+        </h1>
+
+        <p class="beginning">My dearest Luke,</p>
+
+        <p class="text">I'm so excited for you to see this, I hope you like it, I made it with lots of love just for you. Oh, and maybe this is a love letter because I love you more than anything in the world.</p>
+        <p class="text">Well, where should I start... I think I can say that you are the best person I have ever met in my life. You are definitely the most genuinely good person I have ever met, you are so sweet, caring, supportive, cute, adorable, unique and wonderful, you always know the right things to say, you are so good with words and always write the most beautiful things that anyone has ever written to me.</p>
+        <p class="text">I honestly don't think I deserve someone as perfect as you in my life, I mean, what did I do to deserve an angel like you? What did I do to deserve your love?</p>
+        <p class="text">You are by far the best thing that has ever happened to me. I feel like I can be more myself when I'm with you and at the same time I always want to be the best of myself for you, I want to be a better person and be good enough for you. I want to be able to always be by your side and support you like you always support me and are always by my side when I need.</p>
+        <p class="text">No matter what anyone tells you, keep in mind that you are a wonderful person and that you deserve all the love and all the good things in the world. No matter what you want to do, now and in the future, I will always be here by your side. I will support you in everything you want to do, I will celebrate your victories with you, I will be happy with your every achievement and I will always be by your side in difficult times.</p>
+        <p class="text">I know it was weird to say this at first, especially since we haven't known each other that long, but now that I know you better, I can definitely say that I'm very proud of everything you've accomplished. You are a very hard-working person and always do your best, not only for yourself but also for others. I am really very proud of you my darling.</p>
+        <p class="text">I love every second we spend together. I love playing with you, no matter what it is, seeing you happy and smiling warms my heart in such a good way that you have no idea.</p>
+
+        <ul>
+            <li>I truly love you.</li>
+            <li>I love your calm and soft voice that gives me butterflies just listening to it.</li>
+            <li>I love your laugh and I love the fact that I can be the one to make you laugh and be happy.</li>
+            <li>I love every kind word you say to me.</li>
+            <li>I love how excited you get talking about the things you like, your cheerful way of talking about things.</li>
+            <li>I love how you worry about not seeming boring, even when I say you're not and that I love listening to you talking for hours.</li>
+            <li>I love how you are always respectful to me and always care about my feelings.</li>
+            <li>I love that you're not afraid to show what you're feeling, that you're not afraid to be sensitive and cry when necessary.</li>
+            <li>I love how you feel comfortable enough with me to open up to me and talk about difficult things. I am so proud of how brave and strong you are.</li>
+            <li>I love it when you turn on the camera and I see how embarrassed you are by the simplest things I say to you.</li>
+            <li>I love how you cover your face with your arm when you're shy.</li>
+            <li>I love being able to see your beautiful smile that enchants me and makes me fall in love with you even more.</li>
+            <li>I love your "smiling eyes", they are so cute.</li>
+            <li>I love how your eyes look when you're sleepy.</li>
+            <li>I love the way you talk when you're sleepy, the way you say nonsense and call me cute names.</li>
+            <li>I love how you talk to me when you're sleeping and how you don't remember when you wake up, how embarrassed you are without even knowing what happened.</li>
+            <li>I love every message you send me.</li>
+            <li>I love that you send me poems and letters, and I love it even more when you try to speak in Portuguese.</li>
+            <li>I love that you decided to start learning Portuguese so you could talk to me.</li>
+            <li>I love the fact that everything you say sounds like the most beautiful melody to my ears with that beautiful voice of yours.</li>
+            <li>I love every memory we create together and I hope we can create more.</li>
+            <li>Luke, I love absolutely everything about you.</li>
+        </ul>
+        
+        <p class="text">You are everything to me, I love you more than anything and I always will, no matter what, I will always be here for you and I will always support you in every situation, whether good or bad.</p>
+        <p class="text">Even if the last star in the sky stops shining, even if the Moon no longer lights up the nights or the Sun goes out, you are the brightness of my life, and I don't need anything else as long as I have you with me. You are the most important person to me, you are my favorite person, you are my everything, I am all yours and only yours forever.</p>
+        <p class="text">Sorry for making such a long text, I just want you to know how much you mean to me, and I meant every word here. Thank you for always being with me and being so amazing. You are my first true love. You are my sweetie, my cutie, my pretty boy, my dearest love.</p>
+        <p class="text">I hope you have an incredible day and that you can celebrate your birthday with all your loved ones, your friends and family. I always wish the best for you, because you deserve everything and more. I love you more than anything. My heart belongs to you.</p>
+        <p class="text">With all my love and affection,</p>
+
+        <p class="ending">Yumi.</p>
+    </div>
+
+    <section>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </section>
+
+    <script type="text/javascript">
+        function stars(){
+            let count = 500;
+            let scene = document.querySelector('.scene');
+            let i = 0;
+
+            while(i < count){
+                let star = document.createElement("i");
+                let x = Math.floor(Math.random() * window.innerWidth);
+                let y = Math.floor(Math.random() * window.innerHeight);
+                let duration = Math.random() * 10;
+                let size = Math.random() * 2;
+
+                star.style.left = x + 'px';
+                star.style.top = y + 'px';
+                star.style.width = 1 + size + 'px';
+                star.style.height = 1 + size + 'px';
+
+                star.style.animationDuration = 5 + duration + 's';
+                star.style.animationDelay = duration + 's';
+
+                scene.appendChild(star);
+                i++
+            }
+        }
+        stars();
+        
+    </script>
+</body>
+</html>
